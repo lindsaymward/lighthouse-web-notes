@@ -12,3 +12,7 @@ function whatToDoForLunch(hungry, availableTime) {
   console.log("availableTime is", availableTime);
 }
 ```
+
+#### Avoid using 'else'
+
+There's a way to complete the assignment without using `else`. By making your first conditional check if something is not true, you can return sooner and have cleaner code. All other conditionals do not need an else if you use the proper condition statement and the `return` properly.
